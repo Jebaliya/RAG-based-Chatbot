@@ -1,33 +1,39 @@
-# --- Document loading (LangChain document loaders) ---
+# Document loaders
 pdfplumber
 docx2txt
 python-pptx
-langchain-community==0.3.31
 
-# --- Chunking ---
-tiktoken
-langchain-text-splitters==0.3.11
-
-# --- Core LangChain ---
+# LangChain
 langchain==0.3.27
 langchain-core==0.3.79
+langchain-community==0.3.31
+langchain-text-splitters==0.3.11
 
-# --- Retrieval: vector store + embeddings + keyword search ---
+# Retrieval
 langchain-chroma==0.2.6
 langchain-huggingface==0.3.1
 sentence-transformers
 rank-bm25
 
-# --- Generation (Groq via LangChain) ---
+# Groq
 langchain-groq==0.3.8
 
-# --- Tracing / observability ---
+# Pydantic fix
+pydantic<2.10
+
+# ML
+torch
+torchvision
+transformers
+
+# Observability
 arize-phoenix-otel
 openinference-instrumentation-langchain
 
-# --- UI ---
+# UI
 streamlit
 reportlab
 
-# --- Environment / secrets loading ---
+# Env
 python-dotenv
+tiktoken

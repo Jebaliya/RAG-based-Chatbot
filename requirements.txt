@@ -2,24 +2,24 @@
 pdfplumber
 docx2txt
 python-pptx
-langchain-community
+langchain-community==0.3.31
 
 # --- Chunking ---
 tiktoken
-langchain-text-splitters
+langchain-text-splitters==0.3.11
 
 # --- Core LangChain ---
-langchain
-langchain-core
+langchain==0.3.27
+langchain-core==0.3.79
 
 # --- Retrieval: vector store + embeddings + keyword search ---
-langchain-chroma
-langchain-huggingface
+langchain-chroma==0.2.6
+langchain-huggingface==0.3.1
 sentence-transformers
 rank-bm25
 
 # --- Generation (Groq via LangChain) ---
-langchain-groq
+langchain-groq==0.3.8
 
 # --- Tracing / observability ---
 arize-phoenix-otel
@@ -31,10 +31,3 @@ reportlab
 
 # --- Environment / secrets loading ---
 python-dotenv
-torchvision
-
-langchain
-langchain-core
-langchain-community
-langchain-text-splitters
-langchain-groq

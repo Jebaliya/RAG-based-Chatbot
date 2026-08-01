@@ -1,0 +1,34 @@
+# --- Document loading (LangChain document loaders) ---
+pdfplumber
+docx2txt
+python-pptx
+langchain-community
+
+# --- Chunking ---
+tiktoken
+langchain-text-splitters
+
+# --- Core LangChain ---
+langchain
+langchain-core
+
+# --- Retrieval: vector store + embeddings + keyword search ---
+langchain-chroma
+langchain-huggingface
+sentence-transformers
+rank-bm25
+
+# --- Generation (Groq via LangChain) ---
+langchain-groq
+
+# --- Tracing / observability ---
+arize-phoenix-otel
+openinference-instrumentation-langchain
+
+# --- UI ---
+streamlit
+reportlab
+
+# --- Environment / secrets loading ---
+python-dotenv
+torchvision

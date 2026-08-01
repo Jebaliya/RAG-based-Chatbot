@@ -1,0 +1,22 @@
+# Secrets -- never commit these
+.env
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Data / build artifacts
+data/uploaded_docs/*
+!data/uploaded_docs/.gitkeep
+data/chroma_store/
+data/bm25_index.pkl
+eval/results/*
+!eval/results/.gitkeep
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/

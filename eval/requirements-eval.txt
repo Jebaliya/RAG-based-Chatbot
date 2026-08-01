@@ -1,0 +1,7 @@
+# Extra dependencies for eval/run_ragas.py only.
+# Install with: pip install -r eval/requirements-eval.txt
+# Kept separate from the main requirements.txt so the deployed Streamlit
+# app's dependency footprint (and Streamlit Cloud build time) stays small.
+ragas
+datasets
+matplotlib

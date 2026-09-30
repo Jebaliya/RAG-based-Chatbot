@@ -41,7 +41,7 @@ MAX_FILES_PER_UPLOAD = 20
 #   Locally:          set them in a .env file (see .env.example)
 #   Streamlit Cloud:   set them in the app's "Secrets" panel
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "")
-GROQ_MODEL = "llama-3.3-70b-versatile"
+GROQ_MODEL = "openai/gpt-oss-120b"
 
 # ---------------------------------------------------------------------------
 # CHUNKING SETTINGS (LangChain RecursiveCharacterTextSplitter)
